@@ -49,13 +49,13 @@ div a {
     max-width: 400px;
 }
 
-h1{
+.signup h1{
     font-size: 48px;
     font-weight: bolder;
     color: #f9faf8;
 }
 
-p {
+.signup p {
     color: #f9faf8;
     font-size: 18px;
 }
@@ -67,3 +67,39 @@ button{
     align-self: center;
     padding: 4px;  
 }
+
+.information{
+    background-color: #f9faf8;
+
+}
+
+.information h2{
+    font-size: 36px;
+    padding: 24px;
+    font-weight: bolder;
+    color: #1F2937;
+    text-align: center;
+}
+
+.examples{
+    display: flex;
+    justify-content: space-around;
+    justify-content: center;
+}
+
+.examples div{
+    padding: 16px;
+    width: 200px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* div img{
+    display: flex;
+    justify-content: center;
+    width: auto;
+    height: 250px;
+    
+} */
