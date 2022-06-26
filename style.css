@@ -83,8 +83,10 @@ button{
 
 .examples{
     display: flex;
+    gap: 30px;
     justify-content: space-around;
     justify-content: center;
+
 }
 
 .examples div{
@@ -96,10 +98,31 @@ button{
     justify-content: center;
 }
 
-/* div img{
+.examples p{
+    padding: 12px;
+    text-align: center;
+}
+
+.quote{
+    background-color: #e5e7eb;
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    width: auto;
-    height: 250px;
+    align-items: center;
+    padding: 75px;
     
-} */
+}
+
+.quote div{
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    width: 600px;
+ 
+}
+
+.quote .signature{
+    font-weight: bold;
+    font-size: 22px;
+    align-self: flex-end;
+}
