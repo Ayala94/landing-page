@@ -65,7 +65,8 @@ button{
     max-width: fit-content;
     border-radius: 6px;
     align-self: center;
-    padding: 4px;  
+    padding: 4px; 
+    border-style: none;
 }
 
 .information{
@@ -125,4 +126,35 @@ button{
     font-weight: bold;
     font-size: 22px;
     align-self: flex-end;
+}
+
+.action{
+    background-color: #f9faf8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+}
+
+.its_time{
+    background-color: #3882f6;
+    color: #f9faf8;
+    width: 900px;
+    height: 100px;
+    border-radius: 8px;
+    display: flex;
+    gap: 150px;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
+.its_time div{
+    display: flex;
+    flex-direction: column;
+}
+
+.button2{
+    border-style: solid;
+    border-color: #f9faf8;
 }
