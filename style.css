@@ -158,3 +158,16 @@ button{
     border-style: solid;
     border-color: #f9faf8;
 }
+
+.footer{
+    background-color: #1F2937;  
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright{
+    color: #e5e7eb;
+    font-size: 8px;
+}
